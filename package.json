@@ -1,0 +1,19 @@
+{
+  "name": "nodejs-mocha-chai",
+  "version": "1.0.0",
+  "description": "Testes com Mocha, Chai e Nodejs",
+  "main": "test.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Jefferson Rodrigues",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "request": "^2.88.0"
+  }
+}
